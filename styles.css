@@ -1,0 +1,263 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family:poppins;
+    src: url(fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family:abel;
+    src: url(fonts/Abel-Regular.ttf);
+}
+@font-face {
+    font-family:orbitron;
+    src: url(fonts/orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+.container{
+    padding: 20px;
+    
+}
+
+.navLogo{
+    text-align: center;
+    font-family: orbitron;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.navLogo span{
+    color: #acafb4;
+}
+
+.navbar{
+    display: none;
+}
+
+.navbar ul li a{
+    color:black;
+}
+
+.bannerHeader{
+    display: none;
+}
+
+.portfolioProfile{
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.portfolioProfile img{
+    width: 100%;
+    border-radius: 1%;
+}
+
+.portfolioProfile p{
+    text-align: justify;
+    font-family: poppins;
+}
+
+.bannerBtnContainer{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.bannerBtnContainer button{
+padding: 15px 20px;
+margin: 5px;
+border: none;
+border-radius: 25px;
+}
+
+.bannerBtnContainer .messageMeBtn{
+    background-color: #c3b5d5;
+    color: #ffffff;
+    
+}
+
+.bannerBtnContainer .projectBtn{
+    background-color: white;
+    border: 1px solid #acafb4;
+    font-family: poppins;
+}
+
+.projectBtn:hover{
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+
+.myOffers{
+    margin: 120px 0;
+}
+
+.myOffers .title{
+    font-family: orbitron;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.myOffers .description{
+    font-family: poppins;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.myOffers span{
+    color: #c3b5d5;
+}
+
+.uxDesignOffer{
+    border: 1px solid #acafb4 ;  
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;  
+}
+
+.uxDesignOffer:hover{
+background-color: rgba(0, 0, 0, 0.042);
+}
+
+.uxDesignOffer svg{
+    width: 30px;
+    margin-bottom: 10px;
+    background-color:#c3b5d5 ;
+
+}
+
+.uxDesignOffer h1{
+    margin-bottom: 10px;
+    font-family: orbitron;
+    font-size: 1em;
+}
+
+.uxDesignOffer p{
+    font-family: poppins;
+    font-size: .8em;
+    text-align: justify;
+}
+
+.aboutMe{
+    margin:120px 0;
+
+}
+
+.aboutMetitle{
+    font-family: orbitron;
+    text-align: center;
+}
+
+.aboutMe span{
+    color:#c3b5d5 ;
+}
+
+.aboutMe p{
+    font-family: poppins;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+
+.aboutMeBtn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #c3b5d5;
+    color: white;
+    cursor: pointer;
+}
+
+.aboutMeBtn:hover{
+    background-color:#beaad8
+}
+
+.myProjects{
+    margin-bottom: 80px;
+}
+
+.myProjectTitle{
+    margin:  80px 0;
+    text-align: center;
+    
+}
+
+.myProjectTitle h1{
+    font-family: orbitron;
+}
+
+.myProjectTitle span{
+    color: #c3b5d5;
+}
+
+.projectOne{
+    border-bottom: 2px solid #acafb441;
+    padding: 20px  0 10px 0;
+    cursor:pointer;
+}
+
+.projectOne:hover{
+ background-color: rgba(0, 0, 0, 0.227);   
+}
+
+.projectTitle h1{
+    font-family: orbitron;
+    margin-bottom: 10px;
+}
+
+.projectDescription p{
+    font-family: poppins;
+    margin-bottom: 10px;
+}
+
+.projectImgContainer{
+    display: none;
+}
+.formTitle{
+    margin-bottom: 30px;
+}
+
+.formContainer h1{
+    font-family: orbitron;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-family: poppins;
+    font-size: 1em;
+}
+
+.formContainer textarea{
+    height: 150px;
+    font-family: poppins;
+}
+
+input[type="submit"]{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #c3b5d5;
+    color: white;
+    cursor: pointer;
+}
+
+.formSubmitBtn{
+    text-align: end;
+}

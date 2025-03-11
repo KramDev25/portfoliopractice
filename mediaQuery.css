@@ -1,0 +1,174 @@
+@media (min-width: 768px) {
+    .container{
+        padding: 20px 60px;
+    }
+    .offeringGrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .uxDesignOffer{
+        margin-bottom: 0;
+    }
+
+    .aboutMeBtnContainer{
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .navbarContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navLogo{
+        margin: 0;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .navbar ul li{
+        padding: 10px;
+        font-family: poppins;
+        cursor: pointer;
+    }
+
+    .navbar ul li:hover{
+        text-decoration: underline;
+    }
+
+    .messageMeBtn{
+        padding: 15px 20px;
+        border: none;
+        border-radius: 25px;
+        background-color:#c3b5d5;
+        font-family: poppins;
+        color:white;
+        cursor: pointer;
+    }
+
+    .messageMeBtn:hover{
+        background-color:#beaad8
+    }
+
+    .container{
+        padding: 40px 70px;
+    }
+    .offeringGrid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+    }
+
+    .aboutMe{
+        display: flex;
+        justify-content: space-between
+    }
+
+    .aboutMetitle{
+        width: 45%;
+    }
+
+    .aboutMeRight{
+        width: 50%;
+    }
+
+    .aboutMetitle h1{
+        text-align: start;
+        font-size: 2.35em;
+    }
+
+    .aboutMeBtnContainer{
+        text-align: start;
+    }
+
+    .bannerHeader{
+        display: block;
+        text-align: center;
+        font-family: orbitron;
+        font-size: 5em;
+        margin: 100px 0;
+    }
+
+    .bannerHeader span{
+        color:#c3b5d5
+    }
+
+    .portfolioProfile{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 35px;
+    }
+
+    .portfolioProfile img{
+        width: 55%;
+        border-radius: 1%;
+    }
+    
+    .portfolioProfile p{
+        text-align: justify;
+        font-family: poppins;
+        width: 45%;
+        line-height: 40px;
+        
+    }
+    
+}
+@media (min-width: 1286px){
+    
+    .portfolioProfile img{
+        width: 35%;
+        border-radius: 1%;
+    }
+    
+    .portfolioProfile p{
+        width: 55%;
+        font-size: 1.5em;
+        line-height: 50px;
+        
+    }
+
+    .bannerHeader{
+        font-size: 6.3em;
+        margin-bottom: 170px;
+    }
+
+    .portfolioProfile{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+        
+    }
+
+    .myProjectTitle h1{
+        font-size: 3em;
+    }
+
+    .aboutMe{
+        justify-content: space-evenly;
+    }
+
+    .formContainer{
+        max-width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+
+
+}
